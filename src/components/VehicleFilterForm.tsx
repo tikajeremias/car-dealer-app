@@ -19,6 +19,7 @@ export default function VehicleFilterForm() {
 
   const handleNextClick = () => {
     if (selectedMake && selectedYear) {
+      // Redirigimos a la página de resultados con makeId y year
       router.push(`/result/${selectedMake}/${selectedYear}`)
     }
   }

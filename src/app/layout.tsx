@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-// import localFont from "next/font/local";
 import "../styles/globals.css";
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 
 export const metadata: Metadata = {
   title: "Create Next App",
